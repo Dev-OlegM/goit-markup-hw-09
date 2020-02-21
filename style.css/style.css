@@ -249,6 +249,17 @@ html {
   background-size: cover;
 }
 
+@media screen and (min-resolution: 2dppx) {
+  .banner-content {
+    background-image: linear-gradient(
+        to bottom right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/banner@2x.jpg);
+  }
+}
+
 .container {
   text-align: center;
 }
