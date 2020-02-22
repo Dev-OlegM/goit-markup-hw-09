@@ -354,28 +354,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   background-repeat: no-repeat;
-}
-
-.about-items__card--setting {
-  background-image: url(../img/icons/setting.png);
-}
-
-.about-items__card--money-back {
-  background-image: url(../img/icons/power.png);
-}
-
-.about-items__card--worldwide-shipping {
-  background-image: url(../img/icons/world.png);
-  width: 66px;
-  height: 66px;
-  background-repeat: no-repeat;
-}
-
-.about-items__card--worldwide-second {
-  background-image: url(../img/icons/compass.png);
-  width: 66px;
-  height: 66px;
-  background-repeat: no-repeat;
+  fill: var(--main-color);
 }
 
 .about-items__header {
@@ -541,8 +520,6 @@ html {
   padding: 0;
   transition: background-color var(--transition-time) var(--transition-function);
   background-color: transparent;
-  background-repeat: no-repeat;
-  background-position: center;
   width: 50px;
   height: 50px;
   border: 1px solid #ffffff;
@@ -569,31 +546,22 @@ html {
 
 .item__btn--button-like {
   display: block;
-  width: 50px;
-  height: 50px;
+  border: 0;
   padding: 10px;
-  align-items: center;
-  justify-content: center;
   fill: var(--white-color);
 }
 
 .item__btn--button-review {
   display: block;
-  width: 50px;
-  height: 50px;
+  border: 0;
   padding: 10px;
-  align-items: center;
-  justify-content: center;
   fill: var(--white-color);
 }
 
 .item__btn--button-clock {
   display: block;
-  width: 50px;
-  height: 50px;
+  border: 0;
   padding: 10px;
-  align-items: center;
-  justify-content: center;
   fill: var(--white-color);
 }
 
@@ -602,8 +570,6 @@ html {
   width: 50px;
   height: 50px;
   padding: 10px;
-  align-items: center;
-  justify-content: center;
   fill: var(--white-color);
 }
 
