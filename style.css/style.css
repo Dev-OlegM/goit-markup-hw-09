@@ -319,7 +319,7 @@ html {
   background-color: var(--for-links);
 }
 
-.about-items {
+.about-list {
   margin: 0;
   padding: 0;
   display: flex;
@@ -338,7 +338,7 @@ html {
   position: relative;
 }
 
-.about-items__list {
+.about-list__item {
   list-style: none;
   position: relative;
   margin: 0;
